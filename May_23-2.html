@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+
+<style>
+
+@media screen and (min-width:768px){
+
+.main{
+    border:1px solid black;
+    height:80vh;
+    width:60vw;
+    padding:20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-color: aqua;
+}
+.cd1{border:1px solid black;
+    height:25%;
+    width:100%;
+    background-color: blue;
+
+}
+
+.cd2{border:1px solid black;
+    height:50%;
+    padding:30px;
+    display: flex;
+    gap: 10px;
+    background-color: blueviolet;
+
+
+}
+
+.cd3{border:1px solid black;
+    height:25%;
+    width:100%;
+    background-color: greenyellow;
+
+}
+.gcd1{border:1px solid black;
+    height:92%;
+    width:100%;
+    background-color: green;
+
+}
+.gcd2{border:1px solid black;
+    height:92%;
+    width:100%;
+    background-color: orange;
+
+}
+.gcd3{border:1px solid black;
+    height:92%;
+    width:100%;
+    background-color: orchid;
+
+}
+}
+@media screen and (min-width:320px) and (max-width:768px){
+
+    .main{
+    border:1px solid black;
+    height:80vh;
+    width:60vw;
+    padding:20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-color: rgb(255, 145, 0);
+}
+.cd1{border:1px solid black;
+    height:25%;
+    width:100%;
+    background-color: rgb(51, 255, 0);
+
+}
+
+.cd2{border:1px solid black;
+    height:50%;
+    padding:30px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-color: rgb(43, 205, 226);
+
+
+}
+
+.cd3{border:1px solid black;
+    height:25%;
+    width:100%;
+    background-color: rgb(189, 47, 255);
+
+}
+.gcd1{border:1px solid black;
+    height:92%;
+    width:100%;
+    background-color: rgb(128, 0, 85);
+
+}
+.gcd2{border:1px solid black;
+    height:92%;
+    width:100%;
+    background-color: rgb(252, 17, 17);
+
+}
+.gcd3{border:1px solid black;
+    height:92%;
+    width:100%;
+    background-color: rgb(219, 241, 16);
+
+}
+
+}
+h3{
+    text-align: center;
+}
+</style>
+
+</head><h3>Layout using Flex and Media queries</h3>
+<body><div style="display: flex; justify-content: center;">
+
+<div class="main">
+
+<div class="cd1">Header</div>
+
+<div class="cd2">
+<div class="gcd1">Box1</div>
+<div class="gcd2">Box2</div>
+<div class="gcd3">Box3</div>
+</div>
+
+<div class="cd3">Footer</div>
+
+</div>
+
+</div>
+</body>
+</html>
